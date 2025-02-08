@@ -15,7 +15,7 @@ from typing import List
 import os
 
 
-'8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 ckeditor = CKEditor(app)
